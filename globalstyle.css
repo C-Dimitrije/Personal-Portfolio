@@ -726,10 +726,58 @@ body {
   }
 }
 
-@media (max-width: 516px) {
+@media (max-width: 576px) {
     .about .about-info{
         width: 100%;
     }
+
+    .projects-list{
+        padding: 0 10%;
+    }
+
+    .timeline{
+        padding: 0 10%;
+    }
+      .timeline:after {
+        border: 0;
+      }
+      .timeline .timeline-row:nth-child(odd) {
+        padding: 0;
+      }
+      .timeline .timeline-row:nth-child(odd) .timeline-time {
+        position: relative;
+        top: 0;
+        left: 0;
+        margin: 0 0 10px 0;
+      }
+      .timeline .timeline-row:nth-child(odd) .timeline-content {
+        margin: 0;
+      }
+      .timeline .timeline-row:nth-child(odd) .timeline-content:before {
+        display: none;
+      }
+      .timeline .timeline-row:nth-child(odd) .timeline-content:after {
+        display: none;
+      }
+      .timeline .timeline-row:nth-child(even) {
+        padding: 0;
+      }
+      .timeline .timeline-row:nth-child(even) .timeline-time {
+        position: relative;
+        top: 0;
+        left: 0;
+        margin: 0 0 10px 0;
+        text-align: left;
+      }
+      .timeline .timeline-row:nth-child(even) .timeline-content {
+        margin: 0;
+      }
+      .timeline .timeline-row:nth-child(even) .timeline-content:before {
+        display: none;
+      }
+      .timeline .timeline-row:nth-child(even) .timeline-content:after {
+        display: none;
+      }
   }
 
 @media (max-width: 405px) {
@@ -747,47 +795,5 @@ body {
     width: 30vw;
   }
 
-  .timeline {
-    padding: 15px;
-  }
-  .timeline:after {
-    border: 0;
-  }
-  .timeline .timeline-row:nth-child(odd) {
-    padding: 0;
-  }
-  .timeline .timeline-row:nth-child(odd) .timeline-time {
-    position: relative;
-    top: 0;
-    left: 0;
-    margin: 0 0 10px 0;
-  }
-  .timeline .timeline-row:nth-child(odd) .timeline-content {
-    margin: 0;
-  }
-  .timeline .timeline-row:nth-child(odd) .timeline-content:before {
-    display: none;
-  }
-  .timeline .timeline-row:nth-child(odd) .timeline-content:after {
-    display: none;
-  }
-  .timeline .timeline-row:nth-child(even) {
-    padding: 0;
-  }
-  .timeline .timeline-row:nth-child(even) .timeline-time {
-    position: relative;
-    top: 0;
-    left: 0;
-    margin: 0 0 10px 0;
-    text-align: left;
-  }
-  .timeline .timeline-row:nth-child(even) .timeline-content {
-    margin: 0;
-  }
-  .timeline .timeline-row:nth-child(even) .timeline-content:before {
-    display: none;
-  }
-  .timeline .timeline-row:nth-child(even) .timeline-content:after {
-    display: none;
-  }
+  
 }
