@@ -922,7 +922,15 @@ body {
   outline: 0 !important;
   border-radius: 50px;
   background: #4159e3;
+  transition: all 0.2s linear;
   box-shadow: 28px 28px 57px #2b177a, -28px -28px 57px #5762de;
+}
+
+.profile_button:hover{
+    letter-spacing: 0.1em;
+    background-color: #546eff;
+    font-weight: 600;
+    box-shadow: 0px 0px 10px #667aff00;
 }
 /* 
 .about-info > div{
