@@ -4,6 +4,60 @@
   font-family: "ubuntu", sans-serif;
 }
 
+#loader{
+    height: 100vh;
+    width: 100%;
+    background-color: red;
+    z-index: 9999;
+    position: fixed;
+}
+
+.center {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 255, 255);
+  }
+  .wavel {
+    width: 15px;
+    height: 100px;
+    background-color: rgb(20, 19, 73);
+    margin: 10px;
+    animation: waveing 1s linear infinite;
+    border-radius: 20px;
+  }
+  .wavel:nth-child(2) {
+    animation-delay: 0.1s;
+  }
+  .wavel:nth-child(3) {
+    animation-delay: 0.2s;
+  }
+  .wavel:nth-child(4) {
+    animation-delay: 0.3s;
+  }
+  .wavel:nth-child(5) {
+    animation-delay: 0.4s;
+  }
+  .wavel:nth-child(6) {
+    animation-delay: 0.5s;
+  }
+  .wavel:nth-child(7) {
+    animation-delay: 0.6s;
+  }
+  
+  @keyframes waveing {
+    0% {
+      transform: scale(0);
+    }
+    50% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0);
+    }
+  }
+
 body {
   /* background-image: url(img/Group\ 1.png);
     background-position: 50%, 50%;
@@ -260,7 +314,7 @@ body {
     width: 76%;
     height: 100%;
     position: relative;
-    margin: auto;
+    margin-left: 20%;
     z-index: -1;
 }
 
@@ -1073,7 +1127,22 @@ body {
 
   .hero-right{
     margin-top: -20%;
-  }
-
-  
+  }  
 }
+
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background-color: rgba(25, 32, 84, 0.995);
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.521);
+  }

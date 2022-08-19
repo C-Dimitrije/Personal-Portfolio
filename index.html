@@ -24,13 +24,22 @@
     <link rel="stylesheet" href="globalstyle.css" />
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+
     <title>Hi, there.</title>
   </head>
   <body>
-    <script>
-      AOS.init();
-    </script>
     <div style="overflow-x: hidden">
+      <div id="loader">
+        <div class="center">
+          <div class="wavel"></div>
+          <div class="wavel"></div>
+          <div class="wavel"></div>
+          <div class="wavel"></div>
+          <div class="wavel"></div>
+          <div class="wavel"></div>
+        </div>
+      </div>
       <div class="landing">
         <div class="father-div">
           <div class="cat">
@@ -84,48 +93,48 @@
 
       <div class="badges">
         <div class="rain">
-            <div class="drop"></div>
-            <div class="waves">
-                <div></div>
-                <div></div>
-            </div>
-            <div class="splash"></div>
-            <div class="particles">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
+          <div class="drop"></div>
+          <div class="waves">
+            <div></div>
+            <div></div>
+          </div>
+          <div class="splash"></div>
+          <div class="particles">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
         </div>
-    
+
         <div class="rain">
-            <div class="drop"></div>
-            <div class="waves">
-                <div></div>
-                <div></div>
-            </div>
-            <div class="splash"></div>
-            <div class="particles">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
+          <div class="drop"></div>
+          <div class="waves">
+            <div></div>
+            <div></div>
+          </div>
+          <div class="splash"></div>
+          <div class="particles">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
         </div>
-    
+
         <div class="rain">
-            <div class="drop"></div>
-            <div class="waves">
-                <div></div>
-                <div></div>
-            </div>
-            <div class="splash"></div>
-            <div class="particles">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
+          <div class="drop"></div>
+          <div class="waves">
+            <div></div>
+            <div></div>
+          </div>
+          <div class="splash"></div>
+          <div class="particles">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
         </div>
       </div>
 
@@ -139,7 +148,6 @@
           class="row sticks"
           style="background-color: transparent; border-radius: 17px"
         >
-        
           <div
             class="col-xl-3 col-md-3 col-sm-3 col-6 mb-4"
             data-aos="fade-up"
@@ -148,14 +156,14 @@
             data-aos-offset="50"
           >
             <div class="card border-0 shadow">
-                <a href="#bytech">
-                    <img
-                src="img/sebastian-svenson-LpbyDENbQQg-unsplash.jpg"
-                class="card-img-top"
-                alt="..."
-              />
-                </a>
-              
+              <a href="#bytech">
+                <img
+                  src="img/sebastian-svenson-LpbyDENbQQg-unsplash.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </a>
+
               <div class="card-body text-center">
                 <h5 class="card-title mb-0">byTec</h5>
                 <div class="card-text text-black-50">Web Developer</div>
@@ -170,14 +178,14 @@
             data-aos-offset="50"
           >
             <div class="card border-0 shadow">
-                <a href="#somniumblog">
-                    <img
-                src="img/guerrillabuzz-crypto-pr-4u7VzDgNgLI-unsplash.jpg"
-                class="card-img-top"
-                alt="..."
-              />
-                </a>
-              
+              <a href="#somniumblog">
+                <img
+                  src="img/guerrillabuzz-crypto-pr-4u7VzDgNgLI-unsplash.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </a>
+
               <div class="card-body text-center">
                 <h5 class="card-title mb-0">Somnium</h5>
                 <div class="card-text text-black-50">Web Developer</div>
@@ -192,14 +200,14 @@
             data-aos-offset="50"
           >
             <div class="card border-0 shadow">
-                <a href="#focus">
-                    <img
-                src="img/volodymyr-hryshchenko-inI8GnmS190-unsplash.jpg"
-                class="card-img-top"
-                alt="..."
-              />
-                </a>
-              
+              <a href="#focus">
+                <img
+                  src="img/volodymyr-hryshchenko-inI8GnmS190-unsplash.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </a>
+
               <div class="card-body text-center">
                 <h5 class="card-title mb-0">Focus</h5>
                 <div class="card-text text-black-50">Web Developer</div>
@@ -214,14 +222,14 @@
             data-aos-offset="50"
           >
             <div class="card border-0 shadow">
-                <a href="#ponywave">
-                    <img
-                src="img/sebastian-svenson-d2w-_1LJioQ-unsplash.jpg"
-                class="card-img-top"
-                alt="..."
-              />
-                </a>
-              
+              <a href="#ponywave">
+                <img
+                  src="img/sebastian-svenson-d2w-_1LJioQ-unsplash.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </a>
+
               <div class="card-body text-center">
                 <h5 class="card-title mb-0">PonyWave</h5>
                 <div class="card-text text-black-50">Web Developer</div>
@@ -355,14 +363,16 @@
             </div>
             <div class="timeline-content">
               <i class="icon-directions"></i>
-              <h4>Maxwell Admin</h4>
+              <h4>PonyWave</h4>
               <p>
-                Maxwell Admin Dashboard contains C3 graphs, flot graphs, data
-                tables, calendar, drag &amp; drop and ion slider.
+                Simple, flat, modern UI design matching the displaying art. Done
+                in colorful style. HTML, CSS, JS, Bootstrap.
               </p>
               <div>
-                <span class="badge badge-pill">Profile</span>
-                <span class="badge badge-pill">Sales</span>
+                <span class="badge badge-pill">HTML</span>
+                <span class="badge badge-pill">CSS</span>
+                <span class="badge badge-pill">JS</span>
+                <span class="badge badge-pill">Bootstrap</span>
               </div>
             </div>
           </div>
@@ -412,12 +422,15 @@
                   with modern, aesthetic and responsive styling.
                 </h4>
                 <div class="social-buttons mt-5">
-                    <a href="https://www.linkedin.com/in/cvetkovicdimitrije/" target="_blank">
-                        <button class="neo-button">
-                    <i class="fa fa-linkedin fa-1x"></i>
-                  </button>
-                    </a>
-                  
+                  <a
+                    href="https://www.linkedin.com/in/cvetkovicdimitrije/"
+                    target="_blank"
+                  >
+                    <button class="neo-button">
+                      <i class="fa fa-linkedin fa-1x"></i>
+                    </button>
+                  </a>
+
                   <a href="mailto:dimitrije.le.cvetkovic@gmail.com">
                     <button class="neo-button">
                       <i class="fa fa-envelope fa-1x"></i>
@@ -469,14 +482,17 @@
         <div class="contact">
           <h1>Get in touch</h1>
           <div class="contact-info">
-            <a href="https://www.linkedin.com/in/cvetkovicdimitrije/" target="_blank">
-                <img src="img/linkedin.png" alt="" />
+            <a
+              href="https://www.linkedin.com/in/cvetkovicdimitrije/"
+              target="_blank"
+            >
+              <img src="img/linkedin.png" alt="" />
             </a>
             <a href="mailto:dimitrije.le.cvetkovic@gmail.com">
-                <img src="img/gmail.png" alt="" />
+              <img src="img/gmail.png" alt="" />
             </a>
             <a href="tel:+381607343535">
-                <img src="img/telephone.png" alt="" />
+              <img src="img/telephone.png" alt="" />
             </a>
           </div>
         </div>
@@ -504,7 +520,6 @@
       </div>
     </div>
 
-
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
       integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
@@ -515,5 +530,20 @@
       integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
       crossorigin="anonymous"
     ></script>
+    <script>
+        AOS.init();
+        var loader = document.getElementById("loader");
+        loader.style.display = "block";
+        
+        
+        window.addEventListener("load", delayl() )
+        
+        function delayl(){
+            setTimeout(function(){
+                loader.style.display = "none";
+            }, 0)
+            // window.addEventListener("load", function () {})
+        }
+    </script>
   </body>
 </html>
