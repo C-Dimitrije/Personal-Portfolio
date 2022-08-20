@@ -79,15 +79,15 @@ body {
   overflow: hidden;
   width: 35vw;
   max-width: 550px;
-  min-width: 200px;
+  min-width: 250px;
   height: 5.85vw;
   max-height: 65px;
-  min-height: 35px;
+  min-height: 42px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   -webkit-box-shadow: 0px 16px 18px -14px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 16px 18px -14px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 16px 18px -14px rgba(0, 0, 0, 0.587);
+  box-shadow: 0px 16px 10px -14px rgba(0, 0, 0, 0.733);
 }
 
 .nav-list a {
@@ -576,25 +576,25 @@ body {
 
 .projects-list h1 {
   padding: 0.25vh 2vw;
-  color: #ffffff;
+  color: #0e173c;
   letter-spacing: 0.065em;
   font-weight: 600;
   position: relative;
   margin-bottom: 3vh;
   overflow: hidden;
-  background-color: #2250c3;
+  /* background-color: #2250c3;
   background-image: url(img/Rectangle\ 1.svg);
   background-position: center center;
   background-size: cover;
-  background-repeat: no-repeat;
-  border-radius: 0.25em;
+  background-repeat: no-repeat; */
+  /* border-radius: 0.25em; */
   width: fit-content;
 }
 
 .projects-list h1::before {
   content: "";
   position: absolute;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(49, 120, 212);
   animation: line 5s linear infinite;
   height: 5%;
   bottom: 0%;
@@ -616,6 +616,24 @@ body {
   35% {
     width: 25%;
   }
+}
+
+.lang{
+    height: 20vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2% 28%;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.lang img{
+    width: 8%;
+    min-width: 30px;
+    height: auto;
 }
 
 /* @media only screen and (min-width: 992px) and (min-height: 780px) {
@@ -814,6 +832,39 @@ body {
   width: 100%;
   min-width: 30px;
   height: auto;
+}
+
+.designs{
+    width: 100%;
+    background-color: rgba(11, 17, 49, 0);
+    position: relative;
+}
+
+.designs .figma{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.figma img{
+    width: 8%;
+    height: auto;
+}
+
+.designs .designs-content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10% 8%;
+}
+
+.designs-content img{
+    width: 40%;
+    min-width: 270px;
+    height: auto;
 }
 
 .about {
@@ -1061,6 +1112,14 @@ body {
 }
 
 @media (max-width: 576px) {
+    .lang{
+        padding: 2% 20%;
+    }
+
+    .designs{
+        background-color: transparent;
+    }
+    
     .about .about-info{
         width: 100%;
     }
@@ -1124,6 +1183,11 @@ body {
     height: 6.35vh;
     border-radius: 10px;
   }
+
+  .lang{
+    padding: 2% 10%;
+}
+
 
   .contact {
     width: 95%;
