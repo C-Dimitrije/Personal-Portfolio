@@ -30,6 +30,6 @@ AOS.init();
         function delayl(){
             setTimeout(function(){
                 loader.style.display = "none";
-            }, 650)
+            }, 1250)
             // window.addEventListener("load", function () {})
         }
