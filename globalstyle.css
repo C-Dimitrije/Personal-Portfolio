@@ -847,10 +847,14 @@ box-shadow: 2px 11px 40px -16px rgba(0,0,0,0.75);
   width: 80%;
   background-color: #f6faff;
   border-radius: 1.5em;
-  margin: 13.5vh auto;
+  margin: 17.5vh auto;
   padding: 5%;
   color: #272e48;
-  animation: shadow_pulse 3s ease-in-out infinite;
+  position: relative;
+   -webkit-box-shadow: 4px 6px 20px 0px rgba(92, 147, 255, 0.75);
+    -moz-box-shadow: 4px 6px 20px 0px rgba(92, 147, 255, 0.75);
+    box-shadow: 4px 6px 20px 0px rgba(92, 147, 255, 0.75);
+  /* animation: shadow_pulse 3s ease-in-out infinite; */
 }
 
 .contact-info {
@@ -1015,14 +1019,13 @@ box-shadow: 2px 11px 40px -16px rgba(0,0,0,0.75);
   outline: 0 !important;
   border-radius: 50px;
   background: #4159e3;
-  transition: all 0.2s linear;
+  transition: all 0.1s linear;
   box-shadow: 28px 28px 57px #2b177a, -28px -28px 57px #5762de;
 }
 
 .profile_button:hover{
     letter-spacing: 0.1em;
     background-color: #546eff;
-    font-weight: 600;
     box-shadow: 0px 0px 10px #667aff00;
 }
 /* 
@@ -1072,20 +1075,10 @@ box-shadow: 2px 11px 40px -16px rgba(0,0,0,0.75);
 }
 
 @keyframes shadow_pulse {
-  0% {
-    -webkit-box-shadow: 4px 6px 5px 0px rgba(92, 147, 255, 0.75);
-    -moz-box-shadow: 4px 6px 5px 0px rgba(92, 147, 255, 0.75);
-    box-shadow: 0px 0px 5px 0px rgba(92, 147, 255, 0.75);
-  }
   50% {
     -webkit-box-shadow: 4px 6px 5px 0px rgba(92, 147, 255, 0.75);
     -moz-box-shadow: 4px 6px 5px 0px rgba(92, 147, 255, 0.75);
-    box-shadow: 4px 6px 50px 0px rgba(92, 147, 255, 0.75);
-  }
-  100% {
-    -webkit-box-shadow: 4px 6px 5px 0px rgba(92, 147, 255, 0.75);
-    -moz-box-shadow: 4px 6px 5px 0px rgba(92, 147, 255, 0.75);
-    box-shadow: 0px 0px 5px 0px rgba(92, 147, 255, 0.75);
+    box-shadow: 4px 6px 10px 0px rgba(92, 146, 255, 0.523);
   }
 }
 
