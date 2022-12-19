@@ -1,7 +1,6 @@
 // AOS.init();
 
 var projects = document.getElementById("projects").getBoundingClientRect();
-var about = document.getElementById("about").getBoundingClientRect();
 var contact = document.getElementById("contact").getBoundingClientRect();
 
 
@@ -30,6 +29,6 @@ AOS.init();
         function delayl(){
             setTimeout(function(){
                 loader.style.display = "none";
-            }, 1250)
+            }, 500)
             // window.addEventListener("load", function () {})
         }
