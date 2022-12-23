@@ -85,17 +85,16 @@ body {
   min-height: 42px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  -webkit-box-shadow: 0px 16px 18px -14px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 16px 18px -14px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 16px 10px -14px rgba(0, 0, 0, 0.733);
-  /* background-color: rgb(244, 244, 244); */
+  -webkit-box-shadow: 0px 16px 30px -1px rgba(0, 0, 0, 0.733);
+  -moz-box-shadow: 0px 16px 30px -1px rgba(0, 0, 0, 0.733);
+  box-shadow: 0px 16px 30px -1px rgba(0, 0, 0, 0.733);
 }
 
 .nav-list a {
   text-decoration: none;
   color: black;
   position: relative;
-  background-color: rgb(244, 244, 244);
+  background-color: #fec942;
 }
 
 .nav-list a:active{
@@ -106,7 +105,7 @@ body {
 .nav-list .active{
   color: white;
   font-weight: 600;
-  background-color: rgb(80, 130, 255);
+  background-color: rgb(25, 28, 35);
   /* border-bottom:  2px solid rgb(244, 244, 244); */
 }
 
@@ -118,15 +117,6 @@ body {
   text-align: center;
   transition: 0.15s linear;
 }
-
-/* .nav-list > a:hover {
-  cursor: pointer;
-  background-color: rgb(227, 227, 227);
-}
-
-.nav-list > a:hover i {
-  background-color: rgb(227, 227, 227);
-} */
 
 .landing {
   width: 100%;
@@ -154,7 +144,7 @@ body {
 }
 
 .cat1{
-  background: rgba(255, 255, 255, 0);
+  background: rgba(203, 163, 121, 0);
   width: 60px;
   height: 60px;
   border-radius: 250px;
@@ -175,7 +165,6 @@ body {
   background: #fff;
   width: 60px;
   height: 60px;
-
   border-radius: 250px;
   animation: lefty 5s infinite;
   position: relative;
@@ -189,7 +178,7 @@ body {
   position: relative;
   border-radius: 50%;
   top: 15px;
-  background: #0e173c5d;
+  background: #f8ddac;
   z-index: 2;
   animation: lefty 5s infinite;
   animation-delay: 1s;
@@ -283,12 +272,12 @@ body {
   margin: 0;
   border-radius: 40px;
   border: none;
-  background-color: #1c4076;
-  color: white;
+  background-color: #edf9fb;
+  color: black;
   font-family: "ubuntu";
   text-align: center;
   font-size: 1.1rem;
-  box-shadow: 0px 14px 56px -11px #00000089;
+  box-shadow: 0px 14px 56px -11px #dfc58c4e;
   width: auto;
   padding: 1em 2.5em;
   transition: all 0.4s;
@@ -317,7 +306,8 @@ body {
 }
 
 .button:hover {
-  background-color: #4d8be7;
+  background-color: #ffffff;
+  box-shadow: 0px 14px 56px -11px #ffffff6a;
 }
 
 .button:hover span {
@@ -456,7 +446,7 @@ body {
 	right: 0px;
 	bottom: 0px;
 	border-radius: 50%;
-	border: solid rgb(121, 168, 255) 3px;
+	border: solid rgb(17, 28, 49) 3px;
 	animation-name: spread;
 	animation-duration: var(--duration);
 	animation-delay: var(--delay);
@@ -495,7 +485,7 @@ body {
 	right: 35%;
 	border-radius: 8px;
 	clip-path: polygon(7% 100%, 5% 95%, 3% 80%, 11% 50%, 17% 38%, 23% 44%, 30% 53%, 37% 28%, 40% 29%, 45% 43%, 51% 53%, 59% 36%, 64% 22%, 67% 23%, 70% 34%, 72% 46%, 79% 37%, 83% 37%, 93% 61%, 96% 76%, 96% 94%, 94% 100%);
-	background-color: rgb(77, 72, 218);
+	background-color: rgb(77, 76, 98);
 	transform-origin: bottom;
 	animation-name: splash;
 	animation-duration: var(--duration);
@@ -534,7 +524,7 @@ body {
 .particles > div{
 	position: absolute;	
 	border-radius: 100%;
-	background-color: rgb(65, 127, 242);
+	background-color: rgb(65, 73, 88);
 	animation-duration: var(--duration);
 	animation-delay: var(--delay);
 	animation-iteration-count: infinite;
@@ -640,7 +630,7 @@ body {
 .projects-list h1::before {
   content: "";
   position: absolute;
-  background-color: rgb(49, 120, 212);
+  background-color: rgb(30, 55, 87);
   animation: line 5s linear infinite;
   height: 5%;
   bottom: 0%;
@@ -688,23 +678,6 @@ body {
 box-shadow: 2px 11px 40px -16px rgba(0,0,0,0.75);
 }
 
-/* @media only screen and (min-width: 992px) and (min-height: 780px) {
-    .sticks{
-    position: -webkit-sticky;
-    position: sticky;
-    top: 2%;
-    z-index: 10;
-}
-
-.projects-list{
-    
-    height: 105vh;
-}
-.timeline{
-
-    margin-top: -45vh;
-}
-} */
 
 .timeline {
   position: relative;
@@ -750,7 +723,7 @@ box-shadow: 2px 11px 40px -16px rgba(0,0,0,0.75);
 .timeline-row .timeline-content {
   position: relative;
   padding: 20px 30px;
-  background: #1a233a;
+  background: #23282d;
   color: #ffffff;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -801,7 +774,7 @@ box-shadow: 2px 11px 40px -16px rgba(0,0,0,0.75);
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
   border-radius: 100px;
-  background: #6f8effa4;
+  background: #ffffff1a;
   margin-bottom: 10px;
   display: inline-block;
 }
@@ -815,7 +788,9 @@ box-shadow: 2px 11px 40px -16px rgba(0,0,0,0.75);
 }
 .timeline-row .timeline-content .badge {
   color: #ffffff;
-  background: linear-gradient(120deg, #00b5fd 0%, #0047b1 100%);
+  /* background: linear-gradient(120deg, #00b5fd 0%, #0047b1 100%); */
+  border: 0.85px solid white;
+  font-weight: 100 !important;
 }
 .timeline-row:nth-child(even) .timeline-content {
   margin-left: 40px;
@@ -927,16 +902,16 @@ box-shadow: 2px 11px 40px -16px rgba(0,0,0,0.75);
   background: rgb(4, 0, 78);
   background: linear-gradient(
     0deg,
-    rgba(4, 0, 78, 1) 0%,
-    rgba(9, 9, 121, 1) 5%,
-    rgba(0, 105, 199, 1) 100%
+    rgb(7, 15, 31) 0%,
+    rgb(9, 21, 43) 5%,
+    rgb(46, 48, 50) 100%
   );
   min-height: 50vw;
   color: white;
   margin-top: 6.7vh;
   margin-left: 5%;
   width: 95%;
-  border-radius: 1.3em;
+  border-top-left-radius: 1.3em;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
   padding: 5%;
@@ -955,7 +930,7 @@ box-shadow: 2px 11px 40px -16px rgba(0,0,0,0.75);
   color: #fff;
   width: 65%;
   border-radius: 10px;
-  background: linear-gradient(90deg, #35309c, #3d4be5);
+  background: linear-gradient(90deg, #303640, #fec9429f);
   box-shadow: 0px 0px 30px #00000090;
   border: none;
 }
@@ -985,7 +960,7 @@ box-shadow: 2px 11px 40px -16px rgba(0,0,0,0.75);
   border: none;
   margin-right: 10px;
   border-radius: 50%;
-  background-color: #2e6ecf;
+  background-color: #222831;
 }
 
 .num {
@@ -1007,7 +982,7 @@ box-shadow: 2px 11px 40px -16px rgba(0,0,0,0.75);
 }
 
 .fa-linkedin {
-  color: #15284f;
+  color: #f6f6f6;
 }
 
 .fa-google {
@@ -1023,42 +998,20 @@ box-shadow: 2px 11px 40px -16px rgba(0,0,0,0.75);
 }
 
 .profile_button {
-  color: #fff;
+  color: rgb(0, 0, 0);
   padding: 10px;
   border: none;
   outline: 0 !important;
   border-radius: 50px;
-  background: #4159e3;
+  background: #f0f0f0;
   transition: all 0.1s linear;
-  box-shadow: 28px 28px 57px #2b177a, -28px -28px 57px #5762de;
+  box-shadow: 28px 28px 57px #2b177a00, 3px 5px 17px #a2a5c000;
 }
 
 .profile_button:hover{
     letter-spacing: 0.1em;
-    background-color: #546eff;
     box-shadow: 0px 0px 10px #667aff00;
 }
-/* 
-.about-info > div{
-    min-height: 15.6%;
-    background-color: rgba(22, 25, 94, 0.445);
-    margin: 2% auto;
-    border-radius: 1em;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 5%;
-    align-items: center;
-    align-content: center;
-    letter-spacing: 0.05em;
-}
-
-.about-info > div img{
-    width: 20%;
-    height: auto;
-    margin-right: 5%;
-    border-radius: 1em;
-    object-fit:fill;
-} */
 
 .about .about-src {
   width: 30%;
@@ -1066,13 +1019,12 @@ box-shadow: 2px 11px 40px -16px rgba(0,0,0,0.75);
 }
 
 .about .about-src img {
-  width: 200%;
+  width: 120%;
   height: auto;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-25%, -32%);
-  /* animation: planet 3s linear infinite; */
 }
 
 @keyframes planet {
@@ -1132,7 +1084,6 @@ box-shadow: 2px 11px 40px -16px rgba(0,0,0,0.75);
     top: 50%;
     left: 50%;
     transform: translate(-25%, -75%);
-    /* animation: planet 3s linear infinite; */
   }
 
   .profile-c{
@@ -1176,7 +1127,7 @@ box-shadow: 2px 11px 40px -16px rgba(0,0,0,0.75);
     }
 
     .profile-c{
-        background: linear-gradient(90deg, #35309cd3, #3d4be5d4);
+        /* background: linear-gradient(90deg, #35309cd3, #3d4be5d4); */
     }
 
     .projects-list{
@@ -1282,17 +1233,3 @@ box-shadow: 2px 11px 40px -16px rgba(0,0,0,0.75);
 .button-links a:nth-child(3){
   margin-top: 100px;
 }
-
-
-::-webkit-scrollbar {
-    width: 10px;
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    border-radius: 20px;
-    background-color: rgba(36, 51, 160, 0.995);
-  }
-  
-  ::-webkit-scrollbar-thumb:hover {
-    background-color: rgba(42, 63, 221, 0.995);
-  }
