@@ -880,7 +880,9 @@ box-shadow: 2px 11px 40px -16px rgba(0,0,0,0.75);
 }
 
 .figma img{
-    width: 8%;
+    width: 10%;
+    min-width: 135px;
+    max-width: 200px;
     height: auto;
 }
 
@@ -910,7 +912,7 @@ box-shadow: 2px 11px 40px -16px rgba(0,0,0,0.75);
   margin-top: 6.7vh;
   margin-left: 5%;
   width: 95%;
-  border-top-left-radius: 1.3em;
+  border-radius: 1.3em;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
   padding: 5%;
